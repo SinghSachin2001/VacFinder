@@ -1,2 +1,2 @@
 # VacFinder
-It is a chrome extension that finds the slots at your the selecte vaccine center.
+It is a chrome extension that finds vaccination slots at your selected vaccination center.
