@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+    </style>
+<link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    <h2>VacFinder</h2>
+    <form id="input">
+        <select name="states" id="">
+            <option value="" selected disabled hidden>Select State</option>
+        </select>
+        <select name="districts" id="">
+            <option value="" selected disabled hidden>Select District</option>
+        </select>
+        <select name="centers" id="">
+            <option value="" selected disabled hidden>Select Center</option>
+        </select>
+        <select name="age" id="">
+            <option value="" selected disabled hidden>Select Age</option>
+            <option value="18" >18-44</option>
+            <option value="45" >45+</option>
+        </select>
+        <select name="dose">
+            <option value="" selected disabled hidden>Select Dose</option>
+            <option value="1" >Dose 1</option>
+            <option value="2" >Dose 2</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Check</button>
+    </form>
+    <div id="ci"></div>
+</div>
+    <div id="Output"></div>
+    <script src="index.js"></script>
+<div>
+ <a href="https://selfregistration.cowin.gov.in/" target="_blank"><button class="btn btn-primary">Cowin</button></a>
+</div>
+    
+</body>
+</html>
